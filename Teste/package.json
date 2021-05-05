@@ -1,0 +1,22 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:headless": "node_modules/.bin/cypress run --headless --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "dayjs": "^1.10.3"
+  },
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
+}
